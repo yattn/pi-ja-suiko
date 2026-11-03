@@ -24,7 +24,7 @@ pi install git:github.com/yattn/pi-ja-suiko
 /skill:suiko README.mdを推敲して
 ```
 
-子Piではツール・拡張・MCP・セッション保存を無効にし、次の内容を返します。
+推敲用のPiプロセスでは、ツール・拡張・MCP・セッション保存を無効にします。推敲結果には次の内容が含まれます。
 
 - 推敲案の全文
 - 主な変更点
