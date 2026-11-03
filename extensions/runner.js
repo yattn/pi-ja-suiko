@@ -6,7 +6,7 @@ export const PROVIDER = "opencode-go";
 export const MAX_INPUT = 60000;
 const MAX_OUTPUT_BYTES = 2 * 1024 * 1024;
 const TIMEOUT_MS = 240000;
-const SYSTEM_PROMPT = fileURLToPath(new URL("../instructions/editor.md", import.meta.url));
+const SYSTEM_PROMPT = fileURLToPath(new URL("../instructions/suiko.md", import.meta.url));
 
 /** Run one isolated Pi invocation. No extensions, tools, MCP or persistent session. */
 export function runEditor(text, notes = "", { command = "pi", signal, cwd = process.cwd() } = {}) {

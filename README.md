@@ -1,8 +1,8 @@
-# pi-japanese-editor
+# pi-ja-suiko
 
 Pi用の日本語推敲パッケージ。
 
-`japanese_editor` で別のPiプロセスを起動し、DeepSeek V4.1 Flashで原稿を推敲します。
+`suiko` で別のPiプロセスを起動し、DeepSeek V4.1 Flashで原稿を推敲します。
 
 ## 必要なもの
 
@@ -15,13 +15,13 @@ Pi用の日本語推敲パッケージ。
 ## インストール
 
 ```sh
-pi install git:github.com/yattn/pi-japanese-editor
+pi install git:github.com/yattn/pi-ja-suiko
 ```
 
 ## 使い方
 
 ```text
-/skill:japanese-editor README.mdを推敲して
+/skill:suiko README.mdを推敲して
 ```
 
 子Piではツール・拡張・MCP・セッション保存を無効にし、次の内容を返します。
@@ -37,7 +37,7 @@ pi install git:github.com/yattn/pi-japanese-editor
 Python 3.10以降があれば、数字・否定・条件・コードなどの変更を検出できます。
 
 ```sh
-python3 skills/japanese-editor/scripts/check.py examples/original.md examples/revised.md
+python3 skills/suiko/scripts/check.py examples/original.md examples/revised.md
 ```
 
 テスト：

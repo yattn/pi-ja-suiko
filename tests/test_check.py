@@ -2,7 +2,7 @@ import importlib.util
 from pathlib import Path
 import unittest
 
-SCRIPT = Path(__file__).resolve().parents[1] / "skills/japanese-editor/scripts/check.py"
+SCRIPT = Path(__file__).resolve().parents[1] / "skills/suiko/scripts/check.py"
 spec = importlib.util.spec_from_file_location("ja_check", SCRIPT)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)

@@ -1,12 +1,12 @@
 {
-  "name": "pi-japanese-editor",
+  "name": "pi-ja-suiko",
   "version": "0.2.0",
   "type": "module",
   "description": "Minimal Japanese proofreading worker for Pi",
   "license": "MIT",
   "keywords": ["pi-package", "japanese", "technical-writing", "proofreading"],
   "pi": {
-    "extensions": ["./extensions/editor.js"],
+    "extensions": ["./extensions/suiko.js"],
     "skills": ["./skills"]
   }
 }
