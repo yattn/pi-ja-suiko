@@ -1,8 +1,8 @@
 {
-  "name": "pi-ja-suiko",
+  "name": "pi-suiko",
   "version": "0.2.0",
   "type": "module",
-  "description": "Minimal Japanese proofreading worker for Pi",
+  "description": "Japanese proofreading for Pi focused on cognitive load",
   "license": "MIT",
   "keywords": ["pi-package", "japanese", "technical-writing", "proofreading"],
   "pi": {
