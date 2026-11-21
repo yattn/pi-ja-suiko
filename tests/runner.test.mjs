@@ -8,7 +8,7 @@ import { MAX_INPUT, MODEL, PROVIDER, runEditor } from "../extensions/runner.js";
 let temp;
 let mock;
 before(async () => {
-  temp = await mkdtemp(join(tmpdir(), "pi-ja-test-"));
+  temp = await mkdtemp(join(tmpdir(), "pi-suiko-test-"));
   mock = join(temp, "pi");
   await writeFile(mock, `#!/usr/bin/env node
 const args = process.argv.slice(2);
