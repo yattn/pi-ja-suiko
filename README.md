@@ -24,10 +24,8 @@ Pi用の日本語推敲パッケージ。
 ## インストール
 
 ```sh
-pi install git:github.com/yattn/pi-ja-suiko
+pi install git:github.com/yattn/pi-suiko
 ```
-
-GitHubのリポジトリ名は現在も旧名です。リポジトリを `pi-suiko` に改名したら、インストール先も新しい名前に更新します。
 
 ## 使い方
 
